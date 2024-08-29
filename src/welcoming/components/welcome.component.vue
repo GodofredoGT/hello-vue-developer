@@ -4,8 +4,8 @@ import {Developer} from "../model/developer.entity.js";
 export default {
   name: "welcome",
   props:{
-    firstName: String(),
-    lastName: String()
+    firstName: String,
+    lastName: String
   },
   methods:{
     developerName(){
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <template>
-  <p>Hello {{developerName}}. Now You are a Vue Developer.</p>
+  <p>Hello {{developerName() }}. Now You are a Vue Developer.</p>
 </template>
 
 <style scoped>

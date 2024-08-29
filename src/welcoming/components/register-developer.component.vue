@@ -19,7 +19,7 @@ export default {
   }
 }
 </script>
-//convinacion de codigo HTML y vue
+
 <template>
   <div>
     <h1>New Developer</h1>

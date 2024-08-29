@@ -12,7 +12,7 @@ export default {
 
 <template>
   <div>
-    <p>Developers register: {{ developerCount }}</p>
+    <p>Developers register: {{developerCount}}</p>
     <p>Note: Unknown developers are not considered.</p>
   </div>
 </template>
